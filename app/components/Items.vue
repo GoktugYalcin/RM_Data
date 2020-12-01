@@ -4,7 +4,7 @@
             <Label text="Rick and Morty'nin Tüm Bölümleri"></Label>
         </ActionBar>
         <TabView id="tabViewContainer">
-    <TabViewItem title="1. Sezon">
+    <TabViewItem title="1. Parça">
       <StackLayout>
         <ListView for="item in items" @itemTap="onItemTap">
             <v-template>
@@ -15,7 +15,7 @@
         </ListView>
         </StackLayout>
     </TabViewItem>
-    <TabViewItem title="2. Sezon">
+    <TabViewItem title="2. Parça">
       <StackLayout>
         <ListView for="item in items2" @itemTap="onItemTap">
             <v-template>
@@ -26,7 +26,7 @@
         </ListView>
         </StackLayout>
     </TabViewItem>
-    <TabViewItem title="3. Sezon">
+    <TabViewItem title="3. Parça">
       <StackLayout>
         <ListView for="item in items3" @itemTap="onItemTap">
             <v-template>
