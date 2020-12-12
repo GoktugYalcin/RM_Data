@@ -4,3 +4,6 @@
 # Running
  You can type on command line for run the app
 > tns preview
+
+# Preview
+ I will update this with QR code, which live server of preview.
